@@ -18,14 +18,14 @@ const projects = [
     github: 'https://github.com/Anaisvenus/Website-E_Commerce-CIPA',
     demo: '../../e_commerce/src/index.html'
   },
-  {
-    title: 'Application Météo',
-    description: 'Application météo avec géolocalisation et prévisions sur 7 jours.',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80',
-    tech: ['React', 'Redux', 'OpenWeather API', 'SCSS'],
-    github: 'https://github.com',
-    demo: 'https://example.com'
-  }
+  // {
+  //   title: 'Application Météo',
+  //   description: 'Application météo avec géolocalisation et prévisions sur 7 jours.',
+  //   image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80',
+  //   tech: ['React', 'Redux', 'OpenWeather API', 'SCSS'],
+  //   github: 'https://github.com',
+  //   demo: 'https://example.com'
+  // }
 ];
 
 export function Projects() {

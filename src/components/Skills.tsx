@@ -4,7 +4,7 @@ const skills = {
   Framework: {
     icon: Layout,
     title: 'Framework',
-    skills: ['Vite.js', 'Next.js', 'Nest.js', 'React.js', 'Bootstrap', 'TypeScript', 'React Native', 'Tailwind CSS']
+    skills: ['Vite.js', 'Next.js', 'Nest.js', 'Flutter', 'React.js', 'Bootstrap', 'TypeScript', 'React Native', 'Tailwind CSS']
   },
   languages: {
     icon: Code2,
