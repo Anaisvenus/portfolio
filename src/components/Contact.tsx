@@ -37,12 +37,13 @@ export function Contact() {
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
                 ></textarea>
               </div>
+              <a href="mailto:anais.asse.akakpo@gmail.com" target='_blank'>
               <button
                 type="submit"
                 className="w-full bg-emerald-600 text-white py-2 px-4 rounded-md hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
               >
                 Envoyer
-              </button>
+              </button></a>
             </form>
           </div>
 
