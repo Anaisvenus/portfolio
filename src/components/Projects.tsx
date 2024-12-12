@@ -16,7 +16,7 @@ const projects = [
     image: '../../images/e_commerce_cipa.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     github: 'https://github.com/Anaisvenus/Website-E_Commerce-CIPA',
-    demo: '../../e_commerce/src/index.html'
+    demo: '../../ecommerce-website/src/index.html'
   },
   {
     title: 'Voir plus',
