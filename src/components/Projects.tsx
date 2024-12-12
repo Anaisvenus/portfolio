@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Landingpage Vitejs',
     description: 'Application e-commerce complète avec panier, paiement et gestion des commandes.',
-    image: '../../dist/assets/landingpage_cipa.png',
+    image: '../../images/landingpage_cipa.png',
     tech: ['Vite.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
     github: 'https://github.com/Anaisvenus/landingpage_cipa',
     demo: 'https://landingpage-cipa-a2yx.vercel.app'
@@ -13,19 +13,19 @@ const projects = [
   {
     title: 'E-commerce HTML/CSS',
     description: 'Tableau de bord interactif pour la visualisation de données en temps réel.',
-    image: '../../dist/assets/e_commerce_cipa.png',
+    image: '../../images/e_commerce_cipa.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     github: 'https://github.com/Anaisvenus/Website-E_Commerce-CIPA',
     demo: '../../e_commerce/src/index.html'
   },
-  // {
-  //   title: 'Application Météo',
-  //   description: 'Application météo avec géolocalisation et prévisions sur 7 jours.',
-  //   image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80',
-  //   tech: ['React', 'Redux', 'OpenWeather API', 'SCSS'],
-  //   github: 'https://github.com',
-  //   demo: 'https://example.com'
-  // }
+  {
+    title: 'Voir plus',
+    description: 'Plus de projets sur mon github',
+    image: '../../images/github.png',
+    tech: ['React', 'Redux', 'OpenWeather API', 'SCSS'],
+    github: 'https://github.com/mxdukpe',
+    demo: '#'
+  }
 ];
 
 export function Projects() {
@@ -52,7 +52,7 @@ export function Projects() {
                   {project.tech.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1 text-sm text-indigo-600 bg-indigo-50 rounded-full"
+                      className="px-3 py-1 text-sm text-emerald-600 bg-emerald-50 rounded-full"
                     >
                       {tech}
                     </span>

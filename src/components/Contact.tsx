@@ -18,7 +18,7 @@ export function Contact() {
                 <input
                   type="text"
                   id="name"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
                 />
               </div>
               <div>
@@ -26,7 +26,7 @@ export function Contact() {
                 <input
                   type="email"
                   id="email"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
                 />
               </div>
               <div>
@@ -34,12 +34,12 @@ export function Contact() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="w-full bg-emerald-600 text-white py-2 px-4 rounded-md hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
               >
                 Envoyer
               </button>
@@ -48,21 +48,21 @@ export function Contact() {
 
           <div className="space-y-8">
             <div className="flex items-start">
-              <Mail className="h-6 w-6 text-indigo-600" />
+              <Mail className="h-6 w-6 text-emerald-600" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Email</h3>
                 <p className="mt-1 text-gray-600">anais.asse.akakpo@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start">
-              <Phone className="h-6 w-6 text-indigo-600" />
+              <Phone className="h-6 w-6 text-emerald-600" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Téléphone</h3>
                 <p className="mt-1 text-gray-600">+229 015 095 4612 / +229 019 520 6085</p>
               </div>
             </div>
             <div className="flex items-start">
-              <MapPin className="h-6 w-6 text-indigo-600" />
+              <MapPin className="h-6 w-6 text-emerald-600" />
               <div className="ml-4">
                 <h3 className="text-lg font-medium text-gray-900">Localisation</h3>
                 <p className="mt-1 text-gray-600">Cotonou, Bénin</p>

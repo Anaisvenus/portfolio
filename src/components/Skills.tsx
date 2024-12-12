@@ -35,7 +35,7 @@ export function Skills() {
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {Object.entries(skills).map(([key, category]) => (
             <div key={key} className="bg-white rounded-lg shadow-lg p-6">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white mx-auto">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-500 text-white mx-auto">
                 <category.icon className="h-6 w-6" />
               </div>
               <h3 className="mt-6 text-xl font-semibold text-gray-900 text-center">{category.title}</h3>

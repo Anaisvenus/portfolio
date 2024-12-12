@@ -95,7 +95,7 @@ export function Experience() {
             <div key={exp.title} className="bg-white rounded-lg shadow-lg p-6">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Briefcase className="h-6 w-6 text-indigo-600" />
+                  <Briefcase className="h-6 w-6 text-emerald-600" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-xl font-semibold text-gray-900">{exp.title}</h3>
@@ -111,7 +111,7 @@ export function Experience() {
                 {exp.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className="px-3 py-1 text-sm text-indigo-600 bg-indigo-50 rounded-full"
+                    className="px-3 py-1 text-sm text-emerald-600 bg-emerald-50 rounded-full"
                   >
                     {tech}
                   </span>
